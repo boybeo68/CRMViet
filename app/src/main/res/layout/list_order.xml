@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:background="#EEEEEE"
+    >
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textSize="15dp"
+            android:id="@+id/edSearchOrderList"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="8.5"
+            android:background="@drawable/edit"
+            android:maxLines="1"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btSearchOrderList"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:drawableTop="@drawable/ic_action_search_white"
+            android:textColor="#fff"
+            android:background="@drawable/bt_search"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/nodataTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="NO DATA"/>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/lstOder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#EEEEEE"
+        android:dividerHeight="5dp"
+        android:showDividers="end"
+        android:scrollbars="none"
+        android:smoothScrollbar="true"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrPullLabel="@string/pull"
+        ptr:ptrRefreshLabel="@string/refresh"
+        ptr:ptrReleaseLabel="@string/release"
+        ptr:ptrSmoothScrollDuration="400" />
+</LinearLayout>

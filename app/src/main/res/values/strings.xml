@@ -1,0 +1,485 @@
+<resources>
+    <string name="app_name">CRMVIET</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Sign in</string>
+    <string-array name="languages">
+        <item>Vietnamese</item>
+        <item>English</item>
+    </string-array>
+    <string name="prompt_username">Username</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_crm_main">CRMViet</string>
+    <string name="nav_header_website">demo.crmviet.vn</string>
+    <string name="contract">Contract</string>
+    <string name="customer">Customer</string>
+    <string name="new_c">New</string>
+    <string name="all_c">All</string>
+    <string name="job">Tasks</string>
+    <string name="transaction">Transaction</string>
+    <string name="order">Order</string>
+    <string name="report">Report</string>
+    <string name="forecast">Forecast</string>
+    <string name="quote">Quote</string>
+    <string name="order_output">Order output</string>
+    <string name="home">Home</string>
+    <string name="language">Language</string>
+    <string name="ngay7">7 days</string>
+    <string name="ngay30">30 days</string>
+    <string name="ngay90">90 days</string>
+    <string name="Thangnay">this month</string>
+
+    <string name="Thanhtoan">Payment</string>
+    <string name="Thanhtoannhanvien">Payment by salesperson</string>
+
+    <string name="donvi">(unit: 1000 đ )</string>
+
+
+    <string name="Doanhthu">Revenue</string>
+    <string name="Doanhthunhanvien">Revenue by salesperson</string>
+
+    <string name="unit">unit</string>
+
+    <string name="tongsocv">All tasks</string>
+    <string name="hoanthanh">Completed</string>
+    <string name="chuahoanthanh">Out of date</string>
+
+
+    <string name="tatca">Total</string>
+    <string name="moi">New</string>
+    <string name="quan_tam">Interested</string>
+    <string name="daky">Signed</string>
+    <string name="tamdung">Unfollow</string>
+    <string name="khac">Other</string>
+
+
+    <string name="chuaxacnhan">Unconfimred</string>
+    <string name="daxacnhan">Confimred</string>
+    <string name="dagiao">Delivered</string>
+    <string name="dahuy">Cancelled</string>
+    <string name="trave">Give back</string>
+
+    <string name="user_page">User page</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="warehouse"> Warehouse </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Check_in_location">Checkin location</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="customer_code">Customer code</string>
+    <string name="customer_add">Add a new customer</string>
+    <string name="customer_name">Customer name*</string>
+    <string name="customer_birthday">Customer birthday</string>
+    <string name="contact_birthday">Contact birthday</string>
+    <string name="customer_email">Customer email</string>
+    <string name="customer_address">Customer address</string>
+    <string name="customer_account_number">Account number</string>
+    <string name="customer_tax">Tax code</string>
+    <string name="contact_name">Contact name*</string>
+    <string name="contact_phone">Mobile phone</string>
+    <string name="contact_email">Contact email</string>
+    <string name="contact_work_phone">Contact work phone</string>
+    <string name="customer_presenter">Presenter</string>
+    <string name="customer_position">Position</string>
+    <string name="customer_telephone">Telephone:*</string>
+    <string name="customer_phone_number">Phone number</string>
+    <string name="customer_point">Bonus point</string>
+    <string name="user_owner">User owner</string>
+    <string name="customer_bank_account">Bank account</string>
+    <string name="customer_business_registered_address">Business sign address</string>
+    <string name="customer_fax">Fax</string>
+    <string name="customer_website">Website</string>
+    <string name="customer_date_create">Date created</string>
+    <string name="customer_country">Country</string>
+    <string name="customer_province">Province/City</string>
+    <string name="customer_district">District</string>
+    <string name="customer_ward">Ward</string>
+    <string name="customer_description">Description</string>
+    <string name="customer_share">Share</string>
+    <string name="select">Select</string>
+    <string name="message_select_country">--- Select a country ---</string>
+    <string name="message_select_city">--- Select a city ---</string>
+    <string name="message_select_district">--- Select a district ---</string>
+    <string name="message_select_ward">--- Select a ward ---</string>
+    <string name="message_select_owner">--- Select user owner ---</string>
+    <string name="empty_customer_name">Please input customer name!</string>
+    <string name="empty_customer_code">Please input customer code</string>
+    <string name="pull">Pull to refresh&#8230;</string>
+    <string name="refresh">Refreshing&#8230;</string>
+    <string name="release">Release </string>
+    <string name="customer_add_short">Add</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="user">user</string>
+    <string name="success">success</string>
+    <string name="user_id" translatable="false">USER_ID</string>
+    <string name="user_name" translatable="false">USER_NAME</string>
+    <string name="user_full_name" translatable="false">USER_FULL_NAME</string>
+    <string name="user_subset" translatable="false">USER_SUBSET</string>
+    <string name="user_birthday" translatable="false">USER_BIRTHDAY</string>
+    <string name="user_email" translatable="false">USER_EMAIL</string>
+    <string name="owner" translatable="false">USER_OWNER</string>
+    <string name="group_id" translatable="false">GROUP_ID</string>
+    <string name="user_position" translatable="false">USER_POSITION</string>
+    <string name="user_id_object" translatable="false">userId</string>
+    <string name="user_name_object" translatable="false">userName</string>
+    <string name="user_birthday_object" translatable="false">userBirthday</string>
+    <string name="user_email_object" translatable="false">userEmail</string>
+    <string name="user_full_name_object" translatable="false">userFullName</string>
+    <string name="user_position_objet" translatable="false">userPosition</string>
+    <string name="user_subset_object" translatable="false">userSubset</string>
+    <string name="owner_object" translatable="false">userOwner</string>
+    <string name="messages">messages</string>
+    <string name="welcome">Welcome,</string>
+    <string name="users">users</string>
+    <string name="user_group_id" translatable="false">USER_GROUP_ID</string>
+    <string name="date_format">dd-MM-yyyy</string>
+    <string name="groups">groups</string>
+    <string name="user_group_father_id" translatable="false">USER_GROUP_FATHER_ID</string>
+    <string name="user_group_name" translatable="false">USER_GROUP_NAME</string>
+    <string name="user_group_description" translatable="false">USER_GROUP_DESCRIPTION</string>
+    <string name="user_group_id_object">userGroupId</string>
+    <string name="user_group_name_object">userGroupName</string>
+    <string name="user_group_father_id_object">userGroupFatherId</string>
+    <string name="user_group_description_object">userGroupDescription</string>
+    <string name="sign_in_fails">Sign in failed! Username or password was wrong.</string>
+    <string name="empty_customer_fax">Please input customer fax</string>
+    <string name="empty_customer_email">Please input customer email</string>
+    <string name="empty_customer_tax_code">Please input tax code</string>
+    <string name="empty_telephone">Please input telephone</string>
+    <string name="customer_name_db" translatable="false">CUSTOMER_NAME</string>
+    <string name="customer_code_db" translatable="false">CUSTOMER_CODE</string>
+    <string name="customer_address_db" translatable="false">CUSTOMER_ADDRESS</string>
+    <string name="office_address_db" translatable="false">OFFICE_ADDRESS</string>
+    <string name="customer_telephone_db" translatable="false">TELEPHONE</string>
+    <string name="customer_founding_db" translatable="false">CUSTOMER_FOUNDING</string>
+    <string name="customer_fax_db" translatable="false">FAX</string>
+    <string name="customer_reg_dttm_db" translatable="false">REG_DTTM</string>
+    <string name="customer_reg_user_db" translatable="false">REG_USER</string>
+    <string name="customer_owner_db" translatable="false">CUSTOMER_OWNER</string>
+    <string name="customer_email_db" translatable="false">CUSTOMER_EMAIL</string>
+    <string name="customer_website_db" translatable="false">CUSTOMER_WEBSITE</string>
+    <string name="customer_tax_code_db" translatable="false">TAX_CODE</string>
+    <string name="customer_bank_account_db" translatable="false">BANK_ACCOUNT</string>
+    <string name="customer_description_db" translatable="false">CUSTOMER_DESCRIPTION</string>
+    <string name="details">details</string>
+    <string name="customer_text_response">customer</string>
+    <string name="customer_id_db" translatable="false">CUSTOMER_ID</string>
+    <string name="create_customer_success">Create a new customer successfully!</string>
+    <string name="create_customer_fails">Failed to create a new customer</string>
+    <string name="alert_title_remove_customer">Delete customer</string>
+    <string name="alert_message_remove_customer">Do you want to delete "%1$s"?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="successful">successful</string>
+    <string name="customers">customers</string>
+    <string name="api_service_v1_ip" translatable="false">http://192.168.0.105/crmviet/api/v1</string>
+    <string name="customer_edit">Edit a customer</string>
+    <string name="save">Save</string>
+    <string name="customer_upd_dttm_db" translatable="false">UPD_DTTM</string>
+    <string name="customer_upd_user_db" translatable="false">UPD_USER</string>
+    <string name="contract_id_db" translatable="false">CONTRACT_ID</string>
+    <string name="contract_start_date_db" translatable="false">START_DATE</string>
+    <string name="contract_status_db" translatable="false">STATUS</string>
+    <string name="contract_name_db" translatable="false">CONTRACT_NAME</string>
+    <string name="contract_code_db" translatable="false">CONTRACT_CODE</string>
+    <string name="contract_price_db" translatable="false">CONTRACT_PRICE</string>
+    <string name="contract_end_date_db" translatable="false">END_DATE</string>
+    <!--<string name="contract_debt_db" translatable="false">DEBT</string>-->
+    <string name="contract_paid_db" translatable="false">PAID</string>
+    <string name="contract_type_id_db" translatable="false">CONTRACT_TYPE_ID</string>
+    <string name="contract_type_name_db" translatable="false">CONTRACT_TYPE_NAME</string>
+    <string name="contract_type_description_db" translatable="false">CONTRACT_TYPE_DESCRIPTION</string>
+    <string name="contract_description_db" translatable="false">CONTRACT_DESCRIPTION</string>
+    <string name="contract_expenses_db" translatable="false">EXPENSES</string>
+    <string name="contract_owner_db" translatable="false">CONTRACT_OWNER</string>
+    <string name="contract_tax_amount_db" translatable="false">TAX_AMOUNT</string>
+    <string name="contract_product_amount_db" translatable="false">PRODUCT_AMOUNT</string>
+    <string name="customer_representative_db" translatable="false">CUSTOMER_REPRESENTATIVE</string>
+    <string name="customer_representative_position_db" translatable="false">REPRESENTATIVE_POSITION</string>
+    <string name="customer_representative_phone_db" translatable="false">REPRESENTATIVE_PHONE</string>
+    <string name="contract_alert_db" translatable="false">CONTRACT_ALERT</string>
+    <string name="contract_staff_commission_db" translatable="false">STAFF_COMMISSION</string>
+    <string name="contract_staff_commission_amount_db" translatable="false">STAFF_COMMISSION_AMOUNT</string>
+    <string name="contract_schedule_care_db" translatable="false">SCHEDULE_CARE</string>
+    <string name="contract_staff_commission_amount" translatable="false">COMMISSION_AMOUNT</string>
+    <string name="contract_currency_type_db" translatable="false">CURRENCY_TYPE</string>
+    <string name="contract_exchange_rate_db" translatable="false">EXCHANGE_RATE</string>
+    <string name="contract_discount_amount_db" translatable="false">DISCOUNT_AMOUNT</string>
+    <string name="contract_check_share_db" translatable="false">CHECK_SHARE</string>
+    <string name="contract_active_date_db" translatable="false">ACTIVE_DATE</string>
+    <string name="contract_profit_money_db" translatable="false">PROFIT_MONEY</string>
+    <string name="contract_parent_id_db" translatable="false">PARENT_ID</string>
+    <string name="contract_status_approval_id_db" translatable="false">STATUS_APPROVAL_ID</string>
+    <string name="contract_payment_money_db" translatable="false">PAYMENT_MONEY</string>
+    <string name="transaction_customer">Contracts Purchase</string>
+    <string name="transaction_supplier">Contracts Sell</string>
+    <string name="transaction_name">Transaction name:*</string>
+    <string name="transaction_name_object">transactionName</string>
+    <string name="transaction_name_db" translatable="false">TRANSACTION_NAME</string>
+    <string name="transaction_type_name_db" translatable="false">TRANSACTION_TYPE_NAME</string>
+    <string name="transaction_type_name_object">transactionTypeName</string>
+    <string name="transaction_type_description_object">transactionTypeDescription</string>
+    <string name="transaction_type_description_db" translatable="false">TRANSACTION_TYPE_DESCRIPTION</string>
+    <string name="transaction_id_db" translatable="false">TRANSACTION_ID</string>
+    <string name="transaction_description">Description</string>
+    <string name="transaction_description_object" translatable="false">transactionDescription</string>
+    <!--<string name="transaction_description_db" translatable="false">TRANSACTION_DESCRIPTION</string>-->
+    <string name="transaction_result">Transaction result</string>
+    <string name="transaction_result_object" translatable="false">transactionResult</string>
+    <string name="transaction_result_db" translatable="false">TRANSACTION_RESULT</string>
+    <string name="transaction_name_text_object" translatable="false">transactionNameText</string>
+    <string name="transaction_name_text_db" translatable="false">TRANSACTION_NAME_TEXT</string>
+    <string name="transaction_description_text_object" translatable="false">transactionDescriptionText</string>
+    <string name="transaction_description_text_db" translatable="false">TRANSACTION_DESCRIPTION_TEXT</string>
+    <string name="transaction_result_text_object" translatable="false">transactionResultText</string>
+    <string name="transaction_result_text_db" translatable="false">TRANSACTION_RESULT_TEXT</string>
+    <string name="transaction_customer_representative_id_db" translatable="false">CUSTOMER_REPRESENTATIVE_ID</string>
+    <string name="transaction_customer_representative_id_object" translatable="false">customerPrepresentativeId</string>
+    <string name="customer_prepresentative_db" translatable="false">CUSTOMER_REPRESENTATIVE</string>
+    <string name="customer_prepresentative_object" translatable="false">customerPrepresentative</string>
+    <string name="customer_prepresentative_position_object" translatable="false">customerPrepresentativePosition</string>
+    <string name="customer_prepresentative_position_db" translatable="false">CUSTOMER_REPRESENTATIVE_POSSITION</string>
+    <string name="customer_prepresentative_phone_object" translatable="false">customerPrepresentativePhone</string>
+    <string name="customer_prepresentative_phone_db" translatable="false">CUSTOMER_REPRESENTATIVE_PHONE</string>
+    <string name="customer_prepresentative">The representative</string>
+    <string name="customer_prepresentative_phone">The representative phone</string>
+    <string name="customer_prepresentative_position">The representative position</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="transaction_types">transaction_types</string>
+    <string name="transaction_type_id_db" translatable="false">TRANSACTION_TYPE_ID</string>
+    <string name="select_who_shared">Who is shared</string>
+    <string name="contract_start_date">Start date</string>
+    <string name="deadline">Deadline</string>
+    <string name="date_completed">Completed date</string>
+    <string name="time_completed">Completed time</string>
+    <string name="reminder_day_number">Reminder dates</string>
+    <string name="assign">Who is assigned</string>
+    <string name="transaction_create">Create a new transaction</string>
+    <string name="transaction_create_short">Create</string>
+    <string-array name="status_array">
+        <item>Not yet do transaction</item>
+        <item>Doing transaction</item>
+        <item>Done transaction</item>
+        <item>Finish transaction</item>
+    </string-array>
+    <string name="unfulfilled">Unfulfilled</string>
+    <string name="processing">Processing</string>
+    <string name="solved">Solved</string>
+    <string name="completed">Completed</string>
+    <string name="login_title_dialog">Setup API</string>
+    <string name="login_message_dialog">API Server Address</string>
+    <string name="update">Update</string>
+    <string name="login_toast_dialog">Please enter your API server address</string>
+    <string name="login_empty_api_server">Empty API Server Address</string>
+    <string name="ctransaction_empty_transaction_name">Transaction name is empty</string>
+    <string name="ctransaction_not_selected_customer">Customer is not selected</string>
+    <string name="transaction_user_db" translatable="false">TRANSACTION_USER</string>
+    <string name="transaction_user_object">users</string>
+    <string name="transaction_description_db" translatable="false">TRANSACTION_DESCRIPTION_TEXT</string>
+    <string name="transaction_finish_date_db" translatable="false">FINISH_DATE</string>
+    <string name="transaction_finish_date_object">finishDate</string>
+    <string name="transaction_priority_db" translatable="false">PRIORITY</string>
+    <string name="transaction_priority_object">priority</string>
+    <string name="transaction_date_alert_db" translatable="false">DATE_ALERT</string>
+    <string name="transaction_date_alert_object">dateAlert</string>
+    <string name="create_transaction_customer_fails">Failed to create a new transaction</string>
+    <string name="transaction_text_response" translatable="false">transaction</string>
+    <string name="ctransaction_no_user_assign">No user is assigned</string>
+    <string name="title_activity_crm_transaction_edit">Edit transaction</string>
+    <string name="transaction_user_assign">Transaction user</string>
+    <string name="transaction_assign_user">Assign user</string>
+    <string name="contract_end_date">End date</string>
+    <string name="transaction_finish_date">Finish date</string>
+    <string name="transaction_type">Transaction type</string>
+    <string name="contract_status">Status</string>
+    <string name="transaction_priority">Priority</string>
+    <string name="transaction_date_alert">Date alert </string>
+    <string name="transaction_share">Share</string>
+    <string name="transaction_status">Status</string>
+    <string name="transaction_end_date">End date</string>
+    <string name="transaction_start_date">Start date</string>
+    <string name="transaction_type_1">Not yet do transaction</string>
+    <string name="transaction_type_2">Doing transaction</string>
+    <string name="transaction_type_3">Finish transaction</string>
+    <string name="transaction_type_4">Done transaction</string>
+    <string name="transaction_remove">Transaction is removed</string>
+    <string name="edit_transaction_customer_fails">Failed to edit this transaction</string>
+    <string name="search_hint">Search&#8230;</string>
+    <string name="title_result_search">Results search</string>
+    <string name="action_settings_api">API Setting</string>
+    <string name="user_owner_db" translatable="false">USER_OWNER</string>
+    <string name="nodata_online">No data founded</string>
+    <string name="contract_number">Contract number</string>
+    <string name="contract_name">Contract name</string>
+    <string name="contract_type">Contract type</string>
+    <string name="contract_owner">Contract owner</string>
+    <string name="contract_effective_date">Effective date</string>
+    <string name="contract_price">Contract price</string>
+    <string name="contract_money">Contract money</string>
+    <string name="contract_tax_money">Tax money</string>
+    <string name="contract_cost">Costs</string>
+    <string name="contract_paid">Paid</string>
+    <string name="contract_owe">Owe</string>
+    <string name="contract_cost_prices">Cost prices</string>
+    <string name="contract_buying_value">Buying value</string>
+    <string name="contract_gain_loss">Gain loss</string>
+    <string name="contract_rate_gain_loss">Rate gain or loss</string>
+    <string name="contract_commission">Commission</string>
+    <string name="contract_commission_money">Commission money</string>
+
+    <string name="contacts" translatable="false">contacts</string>
+    <string name="contact_customer_id_db" translatable="false">CONTACT_ID</string>
+
+    <string name="contact_customer">Customer contact</string>
+    <string name="contact_customer_email">Email</string>
+    <string name="contact_customer_full_name">Customer full name</string>
+    <string name="contact_customer_mobiphone">Mobiphone</string>
+    <string name="contact_customer_workphone">Workphone</string>
+    <string name="contact_customer_birthday">Birthday</string>
+    <string name="contact_customer_gender">Sex</string>
+    <string name="contact_customer_address">Address</string>
+    <string name="contact_customer_postition">Position</string>
+    <string name="contact_customer_nickchat">Yahoo</string>
+
+    <string name="contact_id" translatable="false">Contact ID</string>
+    <string name="contact_customer_email_db" translatable="false">CONTACT_EMAIL</string>
+    <string name="number_phone_report">no number</string>
+    <string name="contact_customer_full_name_db" translatable="false">CONTACT_FULL_NAME</string>
+    <string name="contact_customer_mobiphone_db" translatable="false">CONTACT_MOBIPHONE</string>
+    <string name="contact_customer_workphone_db" translatable="false">CONTACT_WORKPHONE</string>
+    <string name="contact_customer_gender_db" translatable="false">GENDER</string>
+    <string name="contact_customer_birthday_db" translatable="false">BIRTHDAY</string>
+    <string name="contact_customer_address_db" translatable="false">CONTACT_ADDRESS</string>
+    <string name="contact_customer_position_db" translatable="false">POSITION_ID</string>
+    <string name="contact_customer_nickchat_db" translatable="false">CONTACT_CHAT</string>
+    <string name="alert_title_remove_contact_customer">Delete contact </string>
+    <string name="alert_message_remove_contact_customer">Do you want to delete "%1$s"?</string>
+    <string name="contact_supplier">supplier contact</string>
+    <string name="contact">Contact</string>
+    <string name="position">Position</string>
+    <string name="gender">Gender</string>
+    <string name="contact_customer_adđress">Customer Address</string>
+    <string name="contact_customer_add">Add a new contact</string>
+    <string name="contract_code">Contract code</string>
+    <string name="select_customer">Select customer</string>
+    <string name="select_product">Select product</string>
+    <string name="contract_add">Add a new contract</string>
+    <string name="contract_customer_edit">Edit contract</string>
+    <string name="contact_customer_edit">Edit contact</string>
+    <string name="contract_status_id_db" translatable="false">CONTRACT_STATUS_ID</string>
+    <string name="contract_status_name_db" translatable="false">CONTRACT_STATUS_NAME</string>
+    <string name="contract_status_description_db" translatable="false">CONTRACT_STATUS_DESCRIPTION</string>
+    <string name="title_contract_create">Create a new contract</string>
+    <string name="empty_contact_customer_full_name">Contact full name is empty</string>
+    <string name="contact_object" translatable="false">contact</string>
+    <string name="customer_contact_edit">Edit contact</string>
+    <string name="product">Product</string>
+    <string name="products" translatable="false">products</string>
+    <string name="product_id_db" translatable="false">PRODUCT_ID</string>
+    <string name="product_code_db" translatable="false">PRODUCT_CODE</string>
+    <string name="product_name_db" translatable="false">PRODUCT_NAME</string>
+    <string name="product_category_db" translatable="false">PRODUCT_CATEGORY</string>
+    <string name="categories" translatable="false">categories</string>
+    <string name="category_id_db" translatable="false">CATEGORY_ID</string>
+    <string name="category_code_db" translatable="false">CATEGORY_CODE</string>
+    <string name="category_name_db" translatable="false">CATEGORY_NAME</string>
+    <string name="category_description_db" translatable="false">CATEGORY_DESCRIPTION</string>
+    <string name="category_father_id_db" translatable="false">CATEGORY_FATHER_ID</string>
+    <string name="title_activity_crm_customer_detail">CrmCustomerDetailActivity</string>
+    <string name="customer_potential_status" translatable="false">POTENTIAL_STATUS</string>
+    <string name="customer_office_db" translatable="false">OFFICE_ADDRESS</string>
+    <string name="customer_potential">Potential</string>
+    <string name="potential_new">New</string>
+    <string name="potential_hot">Hot</string>
+    <string name="potential_care">Interested</string>
+    <string name="potential">Signed</string>
+    <string name="potential_other">Other</string>
+    <string name="customer_remove">Remove customer</string>
+    <string name="do_remove_customer">Do you want to remove all data related to customer?</string>
+    <string name="customer_details">Customer details</string>
+    <string name="LocationLst">Location List</string>
+    <string name="potential_stopped">Stopped</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="list_contracts">List contracts</string>
+    <string name="list_contacts">List contacts</string>
+    <string name="list_transactions">List transactions</string>
+    <string name="contact_create">Create contact</string>
+    <string name="title_activity_crm_customer_transactions" translatable="false">CrmCustomerTransactionsActivity</string>
+    <string name="edit_customer_success">Edit the customer successfully!</string>
+    <string name="edit_customer_fails">Failed to edit the customer</string>
+    <string name="title_activity_crm_customer_transaction" translatable="false">CrmCustomerTransactionActivity</string>
+    <string name="title_activity_crm_customer_contact" translatable="false">CrmCustomerContactActivity</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="logout">Logout</string>
+    <string name="do_logout">Do you want to leave my application?</string>
+    <string name="latitude" translatable="false">latitude</string>
+    <string name="longitude" translatable="false">longitude</string>
+    <string name="action">Action</string>
+    <string name="with_supplier">With suppliers</string>
+    <string name="with_customer">With customers</string>
+    <string name="transactions">Transaction</string>
+    <string name="transaction_detail">Transaction details</string>
+    <string name="transaction_edit">Edit transaction</string>
+    <string name="save_edit">Save</string>
+    <string name="transaction_removed">Remove transaction</string>
+    <string name="do_remove_transaction">Do you want to remove this transaction?</string>
+    <string name="crmviet_notification">CRMVIET Notification</string>
+    <string name="remove">Remove</string>
+    <string name="view">View</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="approval">Approval</string>
+    <string name="notification_id_db" translatable="false">NOTIFICATION_ID</string>
+    <string name="userchange" translatable="false">USERCHANGE</string>
+    <string name="timechange_db" translatable="false">TIMECHANGE</string>
+    <string name="viewstatus_db" translatable="false">VIEWSTATUS</string>
+    <string name="notification_name" translatable="false">NOTIFICATION_NAME</string>
+    <string name="type_change_db" translatable="false">TYPE_CHANGE</string>
+    <string name="objects_id_db" translatable="false">OBJECTS_ID</string>
+    <string name="type_object_db" translatable="false">TYPE_OBJECT</string>
+    <string name="userreceive" translatable="false">USERRECEIVE</string>
+    <string name="title_activity_crm_transaction_details" translatable="false">CrmTransactionDetailsActivity</string>
+    <string name="api_hint">API Address</string>
+    <string name="website_crmviet">Website: http://crmviet.vn</string>
+    <string name="work_to_do">Work to do</string>
+    <string name="assigned_work">Assigned work</string>
+    <string name="common_work">Common work</string>
+    <!--<string name="debt">Debt</string>-->
+    <string name="contract_will_expire">Contracts will expire soon</string>
+    <string name="payment_schedule">Payment schedule</string>
+    <string name="transaction_with_supplier">Transaction with supplier</string>
+    <string name="product_to_input">Product to input</string>
+    <string name="unapproved">Unapproved</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="new_message_notification_title_template">%1$s</string>
+    <string name="Overview">Overview</string>
+    <string name="Need_to_do">Work to do</string>
+    <string name="Overdue">Overdue</string>
+    <string name="Assigned">Assigned</string>
+    <string name="debt">Debt</string>
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">Content: %1$s</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+
+</resources>

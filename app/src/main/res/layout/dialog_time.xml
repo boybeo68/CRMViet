@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian"
+        android:textColor="@color/backgroundGradientStart"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/day7"
+                    android:onClick="ok1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="07 ngày" />
+
+                <RadioButton
+                    android:id="@+id/month"
+                    android:onClick="ok2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tháng này" />
+
+                <RadioButton
+                    android:id="@+id/month3"
+                    android:onClick="ok3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="03 tháng" />
+
+                <RadioButton
+                    android:id="@+id/day14"
+                    android:onClick="ok4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14 ngày" />
+
+                <RadioButton
+                    android:id="@+id/oldmonth"
+                    android:onClick="ok5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tháng trước" />
+
+                <RadioButton
+                    android:id="@+id/customDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="ok6"
+                    android:text="tùy chọn" />
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:id="@+id/lntime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Từ"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/fromTv"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/textview"
+                    android:gravity="center"
+                    android:textSize="10dp" />
+
+                <LinearLayout
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Đến"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/toTv"
+                        android:layout_width="80dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/textview"
+                        android:gravity="center"
+                        android:textSize="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<RadioGroup-->
+                <!--android:id="@+id/group2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<RadioButton-->
+                    <!--android:id="@+id/day14"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="14 ngày" />-->
+
+                <!--<RadioButton-->
+                    <!--android:id="@+id/oldmonth"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="tháng trước" />-->
+
+                <!--<RadioButton-->
+                    <!--android:id="@+id/customDay"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="tùy chọn" />-->
+
+            <!--</RadioGroup>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Đến"-->
+                    <!--android:textSize="20dp" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/toTv"-->
+                    <!--android:layout_width="80dp"-->
+                    <!--android:layout_height="35dp"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:background="@drawable/textview"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="10dp" />-->
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

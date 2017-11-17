@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="vn.altalab.app.crmvietpack.CrmResultSearchActivity"
+    tools:showIn="@layout/app_bar_crm_result_search"
+    android:gravity="center">
+
+    <ProgressBar
+        android:id="@+id/load_result"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout_list_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/lstResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#d3d3d3"
+            android:smoothScrollbar="true"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrPullLabel="@string/pull"
+            ptr:ptrRefreshLabel="@string/refresh"
+            ptr:ptrReleaseLabel="@string/release"
+            ptr:ptrSmoothScrollDuration="400" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="@string/nodata_online"/>
+
+</RelativeLayout>

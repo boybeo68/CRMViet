@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <!-- <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/rihanna"/>
+
+    </LinearLayout> -->
+
+    <!-- Title Of Song-->
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtContName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+
+
+    <LinearLayout
+        android:id="@+id/birthdayLayout"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtContName"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_action_clock" />
+
+        <TextView
+            android:id="@+id/txtContReg"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#10bcc9"
+            android:textSize="12sp"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <!-- Rightend Duration -->
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/codeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_action_gender" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtContGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <!-- Artist Name -->
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/phoneLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/codeLayout"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_action_phone" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtContPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <!-- Artist Name -->
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/emailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneLayout"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_action_email" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtContEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:maxLines="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/addressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailLayout"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_action_pin_black" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/txtContAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:maxLines="2" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/yahooLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/addressLayout"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:layout_alignParentLeft="true">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="15dp"-->
+            <!--android:src="@drawable/ic_action_yahoo" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/txtContYahoo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="12sp"-->
+            <!--android:maxLines="2" />-->
+
+    <!--</LinearLayout>-->
+
+    <!-- Rightend Arrow -->
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:contentDescription="@string/app_name"-->
+        <!--android:src="@drawable/ic_action_arrow" />-->
+
+</LinearLayout>

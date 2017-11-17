@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/app_bar_general_alltab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_below="@+id/include"
+        android:id="@+id/scrollCustomerContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Layout infos-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:text=""
+                android:gravity="center_horizontal"
+                android:textSize="15dp"
+                android:textColor="#FF6600"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:hint="Họ và tên ..."
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/etMobiPhone"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:padding="3dp"
+                android:layout_height="wrap_content"
+                android:hint="Số di động ..."
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/etWorkphone"
+                android:layout_width="match_parent"
+                android:background="#FFFFFF"
+                android:padding="3dp"
+                android:layout_height="wrap_content"
+                android:hint="Số máy bàn ..."
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:maxLines="1" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="3dp"
+                android:hint="Email ..."
+                android:imeOptions="actionNext"
+                android:maxLines="1" />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Giới tính: "
+                    android:paddingLeft="5dp"
+                    android:textSize="19dp" />
+                <Spinner
+                    android:layout_weight="1"
+                    android:id="@+id/spnGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Chức danh: "
+                    android:paddingLeft="5dp"
+                    android:textSize="19dp" />
+                <Spinner
+                    android:id="@+id/spnPosition"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <EditText
+                        android:id="@+id/etBirthday"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:hint="Sinh nhật ..."
+                        android:background="#FFFFFF"
+                        android:padding="3dp"
+                        android:inputType="none"
+                        android:maxLines="1" />
+
+                    <ImageButton
+                        android:id="@+id/ibBirthdayPicker"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_button_rounded_light"
+                        android:contentDescription="@string/contact_customer_birthday"
+                        android:padding="3dp"
+                        android:src="@drawable/ic_action_calendar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Button add-->
+
+            <Button
+                android:id="@+id/btnAddCustomerContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/backgroundButtonLogin"
+                android:text="@string/contact_customer_add"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

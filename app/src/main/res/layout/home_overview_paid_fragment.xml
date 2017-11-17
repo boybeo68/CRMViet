@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlTitle"
+        android:background="#666666"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="@string/Thanhtoan"
+            android:padding="5dp"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/spinner_ngay"
+            android:layout_width="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="3dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:spinnerMode="dropdown" />
+    </RelativeLayout>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rlTitle"
+        class="vn.altalab.app.crmvietpack.home.Overview.Overview_Paid_1column_Thismonth_Fragment"
+        android:id="@+id/fm_1column_thismonth"
+        tools:layout="@layout/home_overview_paid_1column_thismonth_fragment"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rlTitle"
+        class="vn.altalab.app.crmvietpack.home.Overview.Overview_Paid_2columns_Thismonth_Fragment"
+        android:id="@+id/fm_2columns_thismonth"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rlTitle"
+        class="vn.altalab.app.crmvietpack.home.Overview.Overview_Paid_3columns_Thismonth_Fragment"
+        android:id="@+id/fm_3columns_thismonth"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rlTitle"
+        class="vn.altalab.app.crmvietpack.home.Overview.Overview_Paid_4columns_Thismonth_Fragment"
+        android:id="@+id/fm_4columns_thismonth"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rlTitle"
+        class="vn.altalab.app.crmvietpack.home.Overview.Overview_Paid_7columns_7days_Fragment"
+        android:id="@+id/fm_7columns_7day"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rlTitle"
+        class="vn.altalab.app.crmvietpack.home.Overview.Overview_Paid_4columns_30days_Fragment"
+        android:id="@+id/fm_4colums_30day"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rlTitle"
+        class="vn.altalab.app.crmvietpack.home.Overview.Overview_Paid_3columns_90days_Fragment"
+        android:id="@+id/fm_3columns_90day"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

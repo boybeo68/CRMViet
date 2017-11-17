@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="vn.altalab.app.crmvietpack.report.RevenueFragment">
+   <LinearLayout
+       android:paddingTop="7dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#CCCCCC"
+       android:orientation="horizontal"
+       android:weightSum="4">
+
+      <TextView
+          android:id="@+id/NameTv"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="Tên"
+          android:textColor="@color/backgroundGradientEnd"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/DoanhthuTv"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="Doanh thu"
+          android:textColor="@color/backgroundGradientEnd"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/ThanhtoanTv"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="Thanh toán"
+          android:textColor="@color/backgroundGradientEnd"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/CongnoTv"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="Công nợ"
+          android:textColor="@color/backgroundGradientEnd"
+          android:textStyle="bold" />
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#CCCCCC"
+       android:paddingBottom="5dp"
+       android:orientation="horizontal"
+       android:weightSum="4">
+
+      <TextView
+
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:textColor="@color/backgroundGradientEnd"
+          android:textStyle="bold" />
+
+      <TextView
+
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_weight="1"
+          android:text="(vnđ)"
+          />
+
+      <TextView
+
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="(vnđ)"
+          />
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:text="(vnđ)"
+          />
+
+   </LinearLayout>
+   <ListView
+       android:id="@+id/lstRevenue"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

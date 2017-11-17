@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCustomerNameDefault"
+        android:layout_width="match_parent"
+        android:background="#DDDDDD"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Tên khách hàng (*)"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etCustomerName"
+        android:hint="Mời nhập ..."
+        android:padding="3dp"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvPhoneDefault"
+        android:layout_width="match_parent"
+        android:background="#DDDDDD"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Phone"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Mời nhập ..."
+        android:padding="3dp"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPhone" />
+
+    <TextView
+        android:id="@+id/tvEmailDefault"
+        android:layout_width="match_parent"
+        android:background="#DDDDDD"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Email"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:hint="Mời nhập ..."
+        android:padding="3dp"
+        android:textSize="15dp"
+        android:paddingLeft="5dp"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvAddressDefault"
+        android:layout_width="match_parent"
+        android:background="#DDDDDD"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Địa chỉ"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="Mời nhập ..."
+        android:padding="3dp"
+        android:paddingLeft="5dp"
+        android:textSize="15dp"
+        android:id="@+id/etAddress"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvBirthdayDefault"
+        android:layout_width="match_parent"
+        android:background="#DDDDDD"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Sinh nhật"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/rlBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Thêm"
+        android:textColor="#0066FF"
+        android:padding="3dp"
+        android:paddingLeft="5dp"
+        android:textSize="15dp"
+        android:layout_centerVertical="true"
+        android:background="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/ivNextBirthday"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icnext1"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvContactDefault"
+        android:layout_width="match_parent"
+        android:background="#DDDDDD"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Liên hệ chính"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/rlContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Thêm"
+            android:textColor="#0066FF"
+            android:padding="3dp"
+            android:paddingLeft="5dp"
+            android:textSize="15dp"
+            android:layout_centerVertical="true"
+            android:background="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/ivNextContact"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icnext1"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

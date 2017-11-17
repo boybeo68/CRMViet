@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame">
+
+    <ImageView
+        android:id="@+id/ivWare"
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <View
+        android:id="@+id/viewColumn"
+        android:layout_width="1dp"
+        android:layout_margin="5dp"
+        android:layout_alignTop="@+id/ivWare"
+        android:layout_alignBottom="@+id/ivWare"
+        android:background="#666666"
+        android:layout_toRightOf="@+id/ivWare"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+    android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/llWare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#555555"
+                android:id="@+id/tvIdProductDefault"
+                android:text="Mã hàng hoá: "
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tvIdProduct"
+                android:textSize="14dp"
+                android:gravity="right"
+                android:textColor="#FF6633"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#555555"
+                android:textSize="14dp"
+                android:id="@+id/tvNameProductDefault"
+                android:text="Tên hàng hoá: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tvNameProduct"
+                android:textSize="14dp"
+                android:gravity="right"
+                android:textColor="#FF6633"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#555555"
+                android:textSize="14dp"
+                android:id="@+id/tvAmountProductDefault"
+                android:text="Số lượng: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tvAmountProduct"
+                android:textSize="14dp"
+                android:gravity="right"
+                android:textColor="#FF6633"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#555555"
+                android:id="@+id/tvWareHouseDefault"
+                android:text="Kho: "
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tvWareHouse"
+                android:textSize="14dp"
+                android:gravity="right"
+                android:textColor="#FF6633"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

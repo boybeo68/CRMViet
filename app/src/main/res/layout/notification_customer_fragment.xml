@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_customer_notification"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/lstNotifi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:showDividers="end"
+        android:divider="#EEEEEE"
+        android:dividerHeight="2dp"
+        android:scrollbars="none"
+        android:smoothScrollbar="true"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrPullLabel="@string/pull"
+        ptr:ptrRefreshLabel="@string/refresh"
+        ptr:ptrReleaseLabel="@string/release"
+        ptr:ptrSmoothScrollDuration="400" />
+
+</RelativeLayout>

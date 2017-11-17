@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "896575330161",
+    "firebase_url": "https://crmviet-f355d.firebaseio.com",
+    "project_id": "crmviet-f355d",
+    "storage_bucket": "crmviet-f355d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896575330161:android:a46a621d3b45094f",
+        "android_client_info": {
+          "package_name": "vn.altalab.app.crmvietpack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896575330161-fs0vbual1juebou08c343aoolv4g2pmj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.altalab.app.crmvietpack",
+            "certificate_hash": "163F6A4132ECA9B7A886B8B4E9C3926420FE4A4E"
+          }
+        },
+        {
+          "client_id": "896575330161-59mfm20i2u2v5b41sq1kts4t2q9q1l53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZoP4ZbEEcRv9BD-VFL15v5RGzpfmyOfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896575330161-59mfm20i2u2v5b41sq1kts4t2q9q1l53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

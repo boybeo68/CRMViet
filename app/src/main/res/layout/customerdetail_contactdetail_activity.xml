@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/llInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/include"
+                layout="@layout/app_bar_general_alltab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvCONTACT_FULL_NAME"
+                    android:textColor="#FF6633"
+                    android:text=""
+                    android:layout_toRightOf="@+id/tvCONTACT_FULL_NAMEDefault"
+                    android:gravity="right"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#999999"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tvCONTACT_FULL_NAMEDefault"
+                    android:text="Họ và tên: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#222222"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvCONTACT_MOBIPHONE"
+                    android:textColor="#FF6633"
+                    android:text=""
+                    android:gravity="right"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tvCONTACT_MOBIPHONEDefault"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#999999"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tvCONTACT_MOBIPHONEDefault"
+                    android:text="Số điện thoại: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#222222"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvCONTACT_WORKPHONE"
+                    android:textColor="#FF6633"
+                    android:text=""
+                    android:layout_toRightOf="@+id/tvCONTACT_WORKPHONEDefault"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#999999"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tvCONTACT_WORKPHONEDefault"
+                    android:text="Số máy bàn: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#222222"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvCONTACT_EMAIL"
+                    android:textColor="#FF6633"
+                    android:text=""
+                    android:gravity="right"
+                    android:layout_toRightOf="@+id/tvCONTACT_EMAILDefault"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#999999"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tvCONTACT_EMAILDefault"
+                    android:text="Email: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#222222"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvGENDER"
+                    android:textColor="#FF6633"
+                    android:text=""
+                    android:gravity="right"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/tvGENDERDefault"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#999999"
+                    android:layout_alignParentBottom="true" />
+
+                <TextView
+                    android:id="@+id/tvGENDERDefault"
+                    android:text="Giới tính: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#222222"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvPOSITION"
+                    android:textColor="#FF6633"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="right"
+                    android:layout_toRightOf="@+id/tvPositionDefault"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#999999"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <TextView
+                    android:id="@+id/tvPositionDefault"
+                    android:text="Chức vụ: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#222222"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Ngày sinh: "
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:textColor="#222222"
+                    android:id="@+id/tvBirthdayDefault"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#999999"
+                    android:layout_alignParentBottom="true" />
+
+                <TextView
+                    android:id="@+id/tvBIRTHDAY"
+                    android:textColor="#FF6633"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="right"
+                    android:text=""
+                    android:layout_toRightOf="@+id/tvBirthdayDefault"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Tên Khách hàng: "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:textColor="#222222"
+                android:id="@+id/TenKh"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#999999"
+                android:layout_alignParentBottom="true" />
+
+            <TextView
+                android:id="@+id/tvCTCustomerName"
+                android:textColor="#FF6633"
+                android:layout_centerHorizontal="true"
+                android:gravity="right"
+                android:text=""
+                android:layout_toRightOf="@+id/TenKh"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
+<android.support.design.widget.FloatingActionButton
+    android:id="@+id/floatingButton"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_margin="10dp"
+    app:srcCompat="@drawable/ic_action_edit" />
+
+</RelativeLayout>

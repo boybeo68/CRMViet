@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_toLeftOf="@+id/llImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTransactionName"
+            android:textColor="#0099FF"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/tvAssignerDefault"
+                android:padding="5dp"
+                android:text="Người giao việc: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvAssigner"
+                android:textColor="#FF9900"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_toRightOf="@+id/tvAssignerDefault"
+                android:textSize="12dp"
+                android:padding="5dp"
+                android:text=""
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:id="@+id/tvExecutorDefault"
+                android:text="Người thực hiện: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvExecutor"
+                android:textColor="#FF9900"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_toRightOf="@+id/tvExecutorDefault"
+                android:textSize="12dp"
+                android:padding="5dp"
+                android:text=""
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:id="@+id/tvJobTypeDefault"
+                android:text="Loại công việc: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvJobType"
+                android:textColor="#FF9900"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_toRightOf="@+id/tvJobTypeDefault"
+                android:layout_centerVertical="true"
+                android:textSize="12dp"
+                android:padding="5dp"
+                android:text=""
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#0099FF"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:id="@+id/tvTime"
+                android:padding="5dp"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:background="#999999"
+        android:layout_margin="5dp"
+        android:layout_alignTop="@+id/llMain"
+        android:layout_alignBottom="@+id/llMain"
+        android:layout_width="1dp"
+        android:layout_toLeftOf="@+id/llImage"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/llImage"
+        android:layout_centerVertical="true"
+        android:layout_width="60dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_STATUS"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#333333"
+            android:layout_below="@+id/iv_STATUS"
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

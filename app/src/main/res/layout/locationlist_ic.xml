@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_crm_customer_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="vn.altalab.app.crmvietpack.LocationLstActivity"
+    tools:showIn="@layout/activity_location_lst">
+
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lstLocation"
+        android:scrollbars="none"
+        android:dividerHeight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ACE1AF"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:showDividers="end"
+        android:smoothScrollbar="true"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrPullLabel="@string/pull"
+        ptr:ptrRefreshLabel="@string/refresh"
+        ptr:ptrReleaseLabel="@string/release"
+        ptr:ptrSmoothScrollDuration="400" />
+
+
+</LinearLayout>

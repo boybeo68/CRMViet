@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:id="@+id/rlDATE"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:background="#DDDDDD"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/tvDATE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#EEEEEE"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlDATE"
+       >
+
+        <View
+            android:id="@+id/viewColumn"
+            android:background="#666666"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvTIME"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tvDESCRIPTION"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:textStyle="bold|italic"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:layout_marginLeft="5dp"
+            android:textColor="#6699FF"
+            android:layout_toRightOf="@+id/viewColumn"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tvTIME"
+            android:text=""
+            android:background="#706495ED"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#222222"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivNote"
+            />
+
+        <ImageView
+            android:id="@+id/ivNote"
+            android:background="@drawable/icnote"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+             />
+
+    </RelativeLayout>
+
+</RelativeLayout>

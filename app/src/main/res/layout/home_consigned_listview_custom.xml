@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTouch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#3399FF"
+            android:textStyle="bold"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#666666"
+                android:layout_marginLeft="5dp"
+                android:text="Khách hàng: "
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text=""
+                android:textColor="#FF6633"
+                android:textStyle="bold"
+                android:id="@+id/tvKhachhang"
+                android:textSize="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivCall"
+                android:background="@drawable/iccall"
+                android:text="Khách hàng"
+                android:layout_width="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/tvSodienthoai"
+                android:textColor="#FF6633"
+                android:text=""
+                android:layout_gravity="center_vertical"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivMail"
+                android:background="@drawable/ic_office"
+                android:text="Khách hàng"
+                android:layout_width="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:textColor="#FF6633"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text=""
+                android:textColor="#FF6633"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:id="@+id/tvNguoithuchien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#666666"
+                android:text="Người thực hiện: "
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#0099FF"
+                android:id="@+id/tvDate"
+                android:text=""
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_alignTop="@+id/llMain"
+        android:layout_marginLeft="5dp"
+        android:layout_width="1dp"
+        android:layout_alignBottom="@+id/llMain"
+        android:background="#666666"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

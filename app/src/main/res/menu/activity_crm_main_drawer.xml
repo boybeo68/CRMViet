@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_customer"
+            android:icon="@drawable/ic_menu_customer"
+            android:title="@string/customer" />
+        <item
+            android:id="@+id/transaction"
+            android:icon="@drawable/ic_action_negotiate"
+            android:title="@string/transaction" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_menu_order"
+            android:title="@string/order" />
+        <item
+
+            android:id="@+id/contract"
+            android:icon="@drawable/contract"
+            android:title="@string/contract" />
+        <item
+
+            android:id="@+id/nav_warehouse"
+            android:icon="@drawable/ic_warehouse"
+            android:title="@string/warehouse" />
+        <item
+
+            android:id="@+id/report"
+            android:icon="@drawable/ic_report"
+            android:title="@string/report" />
+        <item
+            android:id="@+id/check_in"
+            android:icon="@drawable/ic_action_location"
+            android:title="@string/Check_in_location" />
+        <item
+            android:id="@+id/goods"
+            android:icon="@drawable/product_icon"
+            android:title="Hàng hóa"
+            />
+        <item
+            android:id="@+id/nav_contact_supplier"
+            android:icon="@drawable/ic_menu_transaction"
+            android:title="@string/contact_supplier"
+            android:visible="false" />
+
+    </group>
+
+
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/settings_ico"
+        android:title="@string/language" />
+    <item
+        android:id="@+id/nav_log_out"
+        android:icon="@drawable/ic_action_logout"
+        android:title="@string/logout" />
+
+</menu>

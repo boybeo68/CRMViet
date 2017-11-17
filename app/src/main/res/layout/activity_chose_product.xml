@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.altalab.app.crmvietpack.orders_fragment.order_detail.ChoseProductActivity"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:layout_height="37dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textSize="15dp"
+            android:id="@+id/edSearchPro"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="8.5"
+            android:background="@drawable/edit"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btSearchPro"
+            android:onClick="clickSearch1"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:drawableTop="@drawable/ic_action_search_white"
+            android:textColor="#fff"
+            android:background="@drawable/bt_search"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lstProduct"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:divider="#EEEEEE"
+        android:dividerHeight="5dp"
+        android:scrollbars="none"
+        android:showDividers="end"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrPullLabel="@string/pull"
+        ptr:ptrRefreshLabel="@string/refresh"
+        ptr:ptrReleaseLabel="@string/release"
+        ptr:ptrSmoothScrollDuration="400" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1.5">
+
+        <Button
+            android:id="@+id/btXong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@color/backgroundGradientStart"
+            android:text="Xong"/>
+    </RelativeLayout>
+</LinearLayout>

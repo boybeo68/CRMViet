@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/fm_tongquan1"
+            android:name="vn.altalab.app.crmvietpack.home.Overview.Overview_Paid_Fragment"
+            android:layout_width="match_parent"
+            tools:layout="@layout/home_overview_paid_fragment"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fm_tongquan2"
+            android:name="vn.altalab.app.crmvietpack.home.Overview.Overview_Customer_Fragment"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            tools:layout="@layout/home_overview_customer_fragment"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            class="vn.altalab.app.crmvietpack.home.Overview.Overview_PaidEmployees_Fragment"
+            android:layout_width="match_parent"
+            tools:layout="@layout/home_overview_paid_customer_fragment"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/fm_tongquan3"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:name="vn.altalab.app.crmvietpack.home.Overview.Overview_Job_Fragment"
+            android:layout_width="match_parent"
+            android:id="@+id/fm_tongquan4"
+            tools:layout="@layout/home_overview_job_fragment"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
+

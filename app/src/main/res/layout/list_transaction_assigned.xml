@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/txtTName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:maxLines="3" />
+
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/txtDateFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTName"
+        android:textSize="12sp" />
+
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/txtAssigner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDateFinish"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip" />
+
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/txtUserAssigned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAssigner"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip" />
+
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/txtCusName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUserAssigned"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip" />
+
+    <TextView
+        android:id="@+id/txtTPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCusName"
+        android:textColor="#343434"
+        android:textSize="12sp"
+        android:layout_marginTop="1dip" />
+
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name" />
+
+</RelativeLayout>

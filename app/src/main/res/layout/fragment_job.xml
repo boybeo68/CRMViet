@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.altalab.app.crmvietpack.report.JobFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <TextView
+            android:id="@+id/NameTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Danh sách CV"
+            android:textColor="@color/backgroundGradientEnd"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Nv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textColor="@color/backgroundGradientEnd"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Nv2"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/backgroundGradientEnd"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Nv3"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/backgroundGradientEnd"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Nv4"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/backgroundGradientEnd"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/Nv5"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/backgroundGradientEnd"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lstJob"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/nextBt"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/next_icon"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/backBt"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/back_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
